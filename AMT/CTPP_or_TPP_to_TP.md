@@ -13,7 +13,7 @@ This ECL query finds all concepts that matches the attribute _700000101000036108
 
 A _TPP_ can be substituted for the _CTPP_ and this query will work as a CTPP is a TPP.
 
-## Example - pack's components' Trade Product(s)
+## Example - pack components' Trade Product(s)
 The Trade Product concept(s) referenced by the Trade Product Unit of Use (TPUU) concept(s) contained in a TPP or CTPP may differ from the Trade Product referenced by its _has TP_ relationship. That is, a component in a pack (e.g. a tablet) may have a different Trade Product to a pack it is contained in.
 
 A good example of this is _Nexium Hp7 (14 x Nexium tablets, 28 x Amoxil capsules, 14 x Klacid tablets), 1 pack_, where the pack's Trade Product is _Nexium Hp7_. However the CTPP subpacks it contains, and then the TPUUs contained within them have three different Trade Product parents, _Nexium_, _Amoxil_, and _Klacid_.
