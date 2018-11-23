@@ -1,5 +1,5 @@
 # Medicinal Product Unit of Use search by ingredient, form, dose
-This example shows how to find Medicinal Products Unit of Use (_MP_) concepts containing minimum doses of individual ingredients.  It uses attribute groups to restrict the results to a refset and to group the constraints for each ingredient together.
+This example shows how to find Medicinal Products Unit of Use (_MPUU_) concepts containing minimum doses of individual ingredients.  It uses attribute groups to restrict the results to a refset and to group the constraints for each ingredient together.
 
 # Example
 We would like to find all the Medicinal Products Unit of Use concepts that are tablets and contain at least 10mg codeine and 250mg of paracetamol. 
