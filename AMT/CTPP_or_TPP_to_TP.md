@@ -1,4 +1,4 @@
-#CTPP/TPP to TP
+# CTPP/TPP to TP
 In accordance to the AMT model, a Containerised Trade Product Pack (CTPP) is a Trade Product Pack (TPP) but in order to deduce the Trade Product (TP), the _has TP_ relationship has to be traversed.
 
 ## Example
