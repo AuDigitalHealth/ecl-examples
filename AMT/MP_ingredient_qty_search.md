@@ -1,8 +1,8 @@
-# Medicinal Product search by ingredient, form, dose
-This example shows how to find Medicinal Products (_MP_) containing minimum doses of individual ingredients.  It uses attribute groups to restrict the results to a refset and to group the constraints for each ingredient together.
+# Medicinal Product Unit of Use search by ingredient, form, dose
+This example shows how to find Medicinal Products Unit of Use (_MP_) concepts containing minimum doses of individual ingredients.  It uses attribute groups to restrict the results to a refset and to group the constraints for each ingredient together.
 
 # Example
-We would like to find all the Medicinal Products that are tablets and contain at least 10mg codeine and 250mg of paracetamol. 
+We would like to find all the Medicinal Products Unit of Use concepts that are tablets and contain at least 10mg codeine and 250mg of paracetamol. 
 
 ```
 (
@@ -22,7 +22,7 @@ We would like to find all the Medicinal Products that are tablets and contain at
 ) 
 ```
 
-This ECL query firstly constrains the results returned to those within the _MP_ refset and then any concept containing
+This ECL query firstly constrains the results returned to those within the _MPUU_ refset and then any concept containing
  - codeine with at least 10000ug/each
  - paracetamol with at least 250mg/each
 
