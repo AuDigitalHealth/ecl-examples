@@ -1,6 +1,9 @@
 # SNOMED CT Expression Constraint Language (ECL)
 The SNOMED CT Expression Constraint Language is a formal language for defining bounded sets of clinical meanings represented by either precoordinated or postcoordinated expressions (https://confluence.ihtsdotools.org/display/SLPG/SNOMED+CT+Expression+Constraint+Language).  The specification is published by SNOMED Internationally and allows for rich querying of SNOMED CT by allowing relationship traversal between concepts and refinement based on attributes. 
 
+# FHIR ValueSets
+FHIR allows the use of ECL in the definition of ValueSets, and in R4 introduced the implicit ValueSets for SNOMED CT using ECL (http://build.fhir.org/snomedct.html#implicit) making it very easy to expand ECL based ValueSets.
+
 # ECL Examples
 The aim of this repository is to provide a collection of SNOMED CT Expression Constraint Language (ECL) examples that have been compiled to assist users in writing ECL queries to perform common use cases (where help requests have been received by the Agency)
 
@@ -17,7 +20,7 @@ Part of the tooling for OntoServer is [Shrimp](http://ontoserver.csiro.au/shrimp
 There are a few ECL reference guides available online.  Shrimp has a concise ECL reference page that includes example queries as well as explanations relating to the operators and their use.  The guide can be access directly [here](https://ontoserver.csiro.au/shrimp/ecl_help.html)
 
 ## Executing ECL against OntoServer
-OntoServer implements the [FHIR Terminology API](https://www.hl7.org/fhir/STU3/terminology-module.html).  An ECL query can be provided as a parameter to the _$expand_ function:
+OntoServer implements the [FHIR Terminology API](https://www.hl7.org/fhir/STU3/terminology-module.html).  An ECL query can be provided as a parameter to the _$expand_ operation:
 
 ```
 <<SERVER BASE URL>>/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/(<ECL QUERY>)
