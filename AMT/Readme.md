@@ -7,7 +7,7 @@ The Australian Medicines Terminology is a SNOMED CT module created by the Austra
  - Administer
  - Transfer of information
 
-National eHealth specifications also support the use of the AMT to describe medicines in the following clinical documents2:
+National eHealth specifications also support the use of the AMT to describe medicines in the following clinical documents:
  - Prescription Record
  - Dispense Record
  - Shared Health Summary
