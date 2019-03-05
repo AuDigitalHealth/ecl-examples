@@ -25,6 +25,7 @@ A substantial part of the AMT model comprises seven product classes, also known 
  - |Trade product unit of use| (TPUU)
  - |Trade product pack| (TPP)
  - |Containered trade product pack| (CTPP)
+
 These classes group concepts representing different abstractions of branded products and their generic product equivalents at various levels of granularity.
 Classes prefixed with or containing the word “Trade” describe branded products, while classes with a prefix of “Medicinal” represent abstract products or the generic equivalent of branded products.
 
@@ -40,5 +41,13 @@ The concept model for AMT can be downloaded directly from the [National Clinical
  - TPP -> Amoxil 500mg hard capsule, 20
  - CTPP -> Amoxil 500mg hard capsule, 20, blister pack
 
- ## Traversing the model with ECL
- ECL can be used to traverse the relationships between the seven notable concepts to allow, for example, the Medicinal Product (MP) to be found for a given Containerised Trade Product Pack (CTPP) (ie. amoxicillin is the medicinal product form of Amoxil 500mg hard capsule, 20, blister pack).  In addition to traversing between the seven notable concepts, ECL can also be used to query concepts based on attributes and relationships such as unit of use, manufactured dose form, intended active ingredient, container type and many others (see the concept model for the full list).
+## Traversing the model with ECL
+ECL can be used to traverse the relationships between the seven notable concepts to allow, for example, the Medicinal Product (MP) to be found for a given Containerised Trade Product Pack (CTPP) (ie. amoxicillin is the medicinal product form of Amoxil 500mg hard capsule, 20, blister pack).  In addition to traversing between the seven notable concepts, ECL can also be used to query concepts based on attributes and relationships such as unit of use, manufactured dose form, intended active ingredient, container type and many others (see the concept model for the full list).
+ 
+## ECL examples
+ - [CTPP search by ingredient](CTPP_ingredient_search.md)
+ - [Navigating to TP from CTPP or TPP](CTPP_or_TPP_to_TP.md)
+ - [Retreive the MPUU for a given TPUU](MPUU for TPUU.md)
+ - [MPUU search by ingredient, form, dose](MPUU_ingredient_qty_search.md)
+ - [Retrive TPPs from TP and Unit of Use Quantity]
+ - [Navigate from TPUU to MP](TPUU_to_MP.md)
