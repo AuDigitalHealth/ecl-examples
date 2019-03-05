@@ -47,7 +47,7 @@ ECL can be used to traverse the relationships between the seven notable concepts
 ## ECL examples
  - [CTPP search by ingredient](CTPP_ingredient_search.md)
  - [Navigating to TP from CTPP or TPP](CTPP_or_TPP_to_TP.md)
- - [Retreive the MPUU for a given TPUU](MPUU for TPUU.md)
+ - [Retreive the MPUU for a given TPUU](MPUU%20for%20TPUU.md)
  - [MPUU search by ingredient, form, dose](MPUU_ingredient_qty_search.md)
- - [Retrive TPPs from TP and Unit of Use Quantity]
+ - [Retrive TPPs from TP and Unit of Use Quantity](TPP_from_TP_and_UoU_quantity.md)
  - [Navigate from TPUU to MP](TPUU_to_MP.md)
