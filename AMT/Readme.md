@@ -19,13 +19,13 @@ National eHealth specifications also support the use of the AMT to describe medi
 ## Seven notable concepts
 A substantial part of the AMT model comprises seven product classes, also known as the “seven notable concepts”, namely:
 
-|Medicinal product| (MP)
-|Medicinal product unit of use| (MPUU)
-|Medicinal product pack| (MPP)
-|Trade product| (TP)
-|Trade product unit of use| (TPUU)
-|Trade product pack| (TPP)
-|Containered trade product pack| (CTPP)
+ - Medicinal product (MP)
+ - Medicinal product unit of use (MPUU)
+ - Medicinal product pack (MPP)
+ - Trade product (TP)
+ - Trade product unit of use (TPUU)
+ - Trade product pack (TPP)
+ - Containered trade product pack (CTPP)
 
 These classes group concepts representing different abstractions of branded products and their generic product equivalents at various levels of granularity.
 Classes prefixed with or containing the word “Trade” describe branded products, while classes with a prefix of “Medicinal” represent abstract products or the generic equivalent of branded products.
